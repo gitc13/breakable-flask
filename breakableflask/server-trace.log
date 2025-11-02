@@ -1,0 +1,16 @@
+2025-11-02 22:39:51:POST /lookup address=google.com, DNS lookup result: Server:		64.104.128.236
+Address:	64.104.128.236#53
+
+Non-authoritative answer:
+Name:	google.com
+Address: 142.250.192.174
+
+...
+2025-11-02 22:39:58:POST /lookup address=facebook.com, DNS lookup result: Server:		64.104.128.236
+Address:	64.104.128.236#53
+
+Non-authoritative answer:
+Name:	facebook.com
+Address: 57.144.212.1
+
+...

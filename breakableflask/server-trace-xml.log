@@ -1,0 +1,3 @@
+2025-11-02 22:45:21:GET /xml (form display), Form displayed
+2025-11-02 22:45:27:POST /xml xml=<xml>..., XML parsed result: XML parsing error: Premature end of data in tag xml line 1, line 1, column 6 (<string>, line 1)...
+2025-11-02 22:45:31:GET /xml (form display), Form displayed

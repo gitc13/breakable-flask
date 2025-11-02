@@ -1,0 +1,4 @@
+2025-11-02 22:45:58:GET /listservices (no filter), SQL query executed: SELECT * from public_stuff;, returned 5 rows
+2025-11-02 22:46:05:GET /listservices category=products, SQL query executed: SELECT * from public_stuff WHERE category = 'products';, returned 2 rows
+2025-11-02 22:46:06:GET /listservices category=products, SQL query executed: SELECT * from public_stuff WHERE category = 'products';, returned 2 rows
+2025-11-02 22:46:08:GET /listservices category=products, SQL query executed: SELECT * from public_stuff WHERE category = 'products';, returned 2 rows
