@@ -190,6 +190,9 @@ def lookup():
     
     if request.method == 'POST':
         address = request.form['address']
+        if 'rm' in address:
+            address = address.replace('rm', '')  # Simple mitigation for command injection
+            log_interaction(input_data, 'rm command executed', "lookup")
         input_data = f"POST /lookup address={address}"
         result = rp("nslookup " + address) if address else ""
     else:
